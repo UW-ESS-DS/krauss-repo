@@ -1,0 +1,30 @@
+1)	What is the scientific objective?
+2)	What is the state-of-the-art tool in the discipline?
+3)	Describe the data type, size, and the data archive that you intend to use. Cite the literature and the dataset with their DOIs. 
+
+Can ML be used to pick P- and S-waves in ocean bottom seismometer data for a mid-ocean ridge? Can ML be used to distinguish P- and S-waves from oceanographic, 
+
+Workflow description:
+
+Compile phase pick data into an intuitive, relatively small and simple data structure
+
+Split data into training and validation sets
+
+Construct ML architecture to train
+
+Train dataset
+
+Evaluate successes and failures of ML architecture using the validation set
+
+Iterate and improve ML architecture (?)
+
+Compare performance of ML algorithm to our home-grown Matlab code
+---------------------------------------------------------
+Questions for Marine and Ariane:
+What do my data need to look like? Do I just need the times of the phase picks? We have never locally stored the time series. What gets fed to the ML?
+
+If I just want to use a phase picker, what “style” of ML do I start with? PhaseNet was deep-neural-network, is that just what tensor flow is?
+
+Describing a workflow: how much iteration goes into the architecture? How much design is done before you just "start"?
+
+What is a feasible goal for this quarter? How should I angle my objective towards general noise/phase picking/generalizability to other areas? Can I shoot for higher-level stuff like looking for LFEs?
