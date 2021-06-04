@@ -1,0 +1,9 @@
+,Station-Phase Pair,True Positives,False Negatives,False Positives
+0,ENWF_P,2,79,3
+1,ENWF_S,4,77,1
+2,KEMF_P,4,77,5
+3,KEMF_S,6,75,3
+4,KEMO_P,4,77,3
+5,KEMO_S,4,77,3
+6,ENHR_P,2,79,9
+7,ENHR_S,9,72,2
